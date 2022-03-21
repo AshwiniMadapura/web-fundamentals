@@ -1,0 +1,67 @@
+/* h1{
+    color: red;
+}
+
+main{
+    height: 200px;
+    width: 90%;
+    border: 2px solid black;
+    margin: 50px auto; */
+    /* flex row is default */
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    /* when the container space goes beyond it will align below or on top of each other */
+    /* flex-wrap: wrap;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+main{
+    height: 500px;
+    width: 50%;
+    border: 2px solid black;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly ;
+    flex-direction: column;
+    /* align-items: center; */
+    /* background-color: gray; */
+}
+.leftpanel{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(228, 222, 222);
+
+}
+section>div>p{
+    background-color: rgb(243, 227, 227);
+    
+}
+
+/* div{
+    width: 30%;
+    height: 100px;
+} */
+.middlepanel{
+    height: 200px;
+    width: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.rightpanel{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(228, 222, 222);
+}
