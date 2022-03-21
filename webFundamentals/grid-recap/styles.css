@@ -1,0 +1,27 @@
+main {
+  border: 2px solid black;
+  width: 80%;
+  height: 600px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+}
+main div {
+  background-color: aqua;
+}
+
+@media screen and (max-width: 750px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 500px) {
+  main {
+    background-color: black;
+  }
+  main div {
+    color: white;
+  }
+}

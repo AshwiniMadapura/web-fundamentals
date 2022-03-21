@@ -1,0 +1,31 @@
+nav {
+  grid-area: navigation;
+}
+
+section {
+  grid-area: sec;
+}
+
+div {
+  grid-area: div;
+}
+
+footer {
+  grid-area: foot;
+}
+
+main {
+  border: 2px solid black;
+  width: 80%;
+  height: 600px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-areas: "navigation navigation navigation navigation navigation" "sec sec div div div" "foot foot foot foot foot";
+  gap: 10px;
+}
+main > * {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
