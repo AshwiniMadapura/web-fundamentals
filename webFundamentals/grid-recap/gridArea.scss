@@ -17,10 +17,13 @@ main{
     height: 600px;
     margin: 20px auto;
     display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-areas: 
-        "navigation navigation navigation navigation navigation"
-        "sec sec div div div"
-        "foot foot foot foot foot"
+        "navigation"
+        "navigation"
+        "sec"
+
     ;
     gap: 10px;
 
