@@ -1,0 +1,33 @@
+li{
+    list-style: none;
+}
+.navLinks{    
+    top: 0px;
+    width: 1200px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: $color-white;
+}
+.welcomeContent{
+    width: 434px;
+height: 224px;
+// left: 739px;
+margin-top: 400px;
+right: 500px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+letter-spacing: -0.02em;
+color: $color-white;
+}

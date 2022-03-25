@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap");
+li {
+  list-style: none;
+}
+
+.navLinks {
+  top: 0px;
+  width: 1200px;
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fefefe;
+}
+
+.welcomeContent {
+  width: 434px;
+  height: 224px;
+  margin-top: 400px;
+  right: 500px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #fefefe;
+}
+
+body {
+  width: 1250px;
+  background-color: black;
+}
+
+.main {
+  width: 1250px;
+  height: 4096px;
+  background-color: black;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 1200px;
+  height: 91px;
+  left: 0px;
+  top: 0px;
+}
+
+.welcomePageContent {
+  width: 1250px;
+  height: 500px;
+}

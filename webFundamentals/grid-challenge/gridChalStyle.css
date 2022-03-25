@@ -70,7 +70,7 @@ main {
   gap: 10px;
 }
 main > * {
-  background-color: aquamarine;
+  background-color: #f7d5db;
   justify-content: center;
   align-items: center;
 }
@@ -83,7 +83,7 @@ main > * {
   gap: 10px;
 }
 .gridBottom > * {
-  background-color: aquamarine;
+  background-color: #f7d5db;
   display: flex;
   justify-content: center;
   align-items: center;

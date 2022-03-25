@@ -19,6 +19,7 @@
 .leftContent{
     grid-area: Lcontent;
     
+    
 }
 .leftContentBottom{
     grid-area: leftBottom;
@@ -64,7 +65,7 @@ main{
     gap: 10px;
 
     >*{
-        background-color: aquamarine;
+        background-color: rgb(247, 213, 219);
         // display: flex;
         // flex-direction: column;
         justify-content: center;
@@ -97,7 +98,7 @@ main{
     gap: 10px;
 
     >*{
-        background-color: aquamarine;
+        background-color: rgb(247, 213, 219);
         display: flex;
         justify-content: center;
         align-items: center;
