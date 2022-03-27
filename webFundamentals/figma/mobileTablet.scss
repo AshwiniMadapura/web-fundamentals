@@ -7,6 +7,8 @@
         font-size: 15px;
     }
 }
+}
+@media (max-width:600px){
     .welcomePageContent{
         height: 250px;
         margin-top: 10px;
@@ -48,6 +50,7 @@
             }
         }
     }
+}
     // header class
     .headerClass{
         // margin-top: 20px;
@@ -64,7 +67,7 @@
     }
 
     // Myprojects
-
+    @media (max-width:850px){
     .projects{
         height: 450px;
         display: flex;
@@ -189,4 +192,4 @@
             }
         }
     }
-}
+    }
