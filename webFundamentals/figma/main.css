@@ -222,20 +222,6 @@ body {
 }
 
 @media (max-width: 500px) {
-  .navLinks {
-    flex-direction: column;
-  }
-
-  .welcomePageContent {
-    height: 200px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-}
-@media (max-width: 500px) {
   .navigation {
     height: 50px;
   }
@@ -373,10 +359,27 @@ body {
     text-align: center;
   }
   .IndustryExperience .skillList {
-    text-align: center;
+    text-align: left;
   }
   .IndustryExperience #skillHeader {
     margin-left: 0;
     margin-top: 0;
+  }
+
+  .CotactSection {
+    height: 100px;
+  }
+  .CotactSection .contactContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+  }
+  .CotactSection .contactContent #gmailIcon {
+    height: 10px;
+  }
+  .CotactSection .contactContent #linkedInIcon {
+    height: 10px;
   }
 }

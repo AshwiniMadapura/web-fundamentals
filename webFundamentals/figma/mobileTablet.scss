@@ -155,13 +155,38 @@
             // color: $color-white;
         }
         .skillList{
-            text-align: center;
+            text-align: left;
         }
         #skillHeader{
             // padding: 2%;
             margin-left: 0;
             margin-top: 0;
         }
+    }
 
+    // contact
+    .CotactSection{
+        height: 100px;
+        .contactContent{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            // color: $color-white;
+            font-size: 10px;
+            // .gmail{
+            //     display: flex;
+            //     justify-content: center;
+            //     align-items: center;
+            //     text-decoration: none;
+            // }
+            #gmailIcon{
+                height: 10px;
+                
+            }
+            #linkedInIcon{
+                height: 10px;
+            }
+        }
     }
 }
