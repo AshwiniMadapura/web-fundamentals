@@ -1,6 +1,6 @@
-li{
-    list-style: none;
-}
+// navigation section
+
+
 .navLinks{    
     top: 0px;
     width: 1200px;
@@ -10,15 +10,23 @@ li{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: $color-white;
+    
+    a{
+        text-decoration: none;
+        color: $color-white;
+    }
+    a:hover{
+        border-bottom: 2px $color-button solid;
+    }
+    li{
+        list-style: none;
+    }
 }
+// section1 home page
+
 .welcomeContent{
     width: 434px;
 height: 224px;
-// left: 739px;
-margin-top: 400px;
-right: 500px;
-
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 700;
@@ -31,3 +39,180 @@ align-items: center;
 letter-spacing: -0.02em;
 color: $color-white;
 }
+.viewPrjBtn{
+    margin-left: 150px;
+    background-color: $color-button;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.viewButton{
+    background-color: $color-button;
+    height: 40px;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+
+}
+.image1{
+    position: absolute;
+    width: 600px;
+    height: 650px;
+    left: 0px;
+    top: 106px;
+}
+
+// section 2 My project
+#myProject{
+    // position: absolute;
+width: 250px;
+height: 89px;
+font-family: 'Work Sans';
+// margin-left: 40%;
+margin: 2% auto;
+font-weight: 700;
+font-size: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #116099;
+}
+
+.projectFlex{
+    display: flex;
+    margin: 2px 2px;
+}
+.dada{
+    width: 635px;
+height: 453px;
+margin-top: 10%;
+font-family: 'Work Sans';
+font-weight: 700;
+font-size: 30px;
+text-align: center;
+color: $color-white;
+}
+.imageMobile{
+width: 600px;
+height: 500px;
+background: #000E1B;
+.frame2{
+width: 30%;
+height: 500px;
+margin-left: 30%;
+transform: rotate(12.68deg);
+}
+}
+
+// About Me section
+
+#aboutMe{
+    width: 250px;
+height: 40px;
+font-family: 'Work Sans';
+// margin-left: 40%;
+margin: 1% auto;
+font-weight: 700;
+font-size: 48px;
+// display: flex;
+// align-items: center;
+text-align: center;
+color: #116099;
+}
+// .aboutFlex{
+//     display: flex;
+//     margin: 2px 2px;
+// }
+.aboutFlex{
+    display: flex;
+    margin: 2px 2px;
+    // justify-content: center;
+}
+.myPic{
+    
+width: 100%;
+height: 100%;
+
+background: #000000;
+}
+.aboutMeContent{
+    width: 635px;
+height: 453px;
+margin-top: 10%;
+font-family: 'Work Sans';
+font-weight: 700;
+font-size: 30px;
+text-align: center;
+color: $color-white;
+padding: 8% ;
+}
+#experience{
+    width: 250px;
+height: 150px;
+font-family: 'Work Sans';
+// margin-left: 40%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+font-weight: 700;
+font-size: 48px;
+// display: flex;
+// align-items: center;
+text-align: center;
+color: #116099;
+}
+.experienceFlex{
+    display: flex;
+    margin: 2px 2px;
+    // justify-content: center;
+}
+.experienceContent{
+    width: 635px;
+height: 453px;
+// margin-top: 10%;
+font-family: 'Work Sans';
+font-weight: 700;
+font-size: 30px;
+text-align: center;
+color: $color-white;
+padding: 8% ;
+}
+.skills{
+    width: 615px;
+height: 453px;
+// margin-top: 10%;
+margin-left: 10%;
+font-family: 'Work Sans';
+font-weight: 700;
+font-size: 30px;
+text-align: left;
+color: $color-white;
+padding: 5% ;
+    #skillHeader{
+        padding: 2%;
+    }
+    .skillList{
+        margin: 5% 10%;
+    }
+}
+
+// Contact Details
+
+#contact{
+    width: 250px;
+    height: 40px;
+    font-family: 'Work Sans';
+    margin: 1% auto;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: $color-header;
+}
+    .contactContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color: $color-white;
+        font-size: 30px;
+        margin-top: 10%;
+    }

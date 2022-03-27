@@ -1,61 +1,382 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap");
-li {
-  list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fredoka", sans-serif;
 }
 
 .navLinks {
   top: 0px;
-  width: 1200px;
+  width: 100%;
   font-family: "Work Sans";
   font-weight: 700;
   font-size: 25px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.navLinks a {
+  text-decoration: none;
   color: #fefefe;
+}
+.navLinks a:hover {
+  border-bottom: 2px #1774A8 solid;
+}
+.navLinks li {
+  list-style: none;
 }
 
 .welcomeContent {
-  width: 434px;
-  height: 224px;
-  margin-top: 400px;
-  right: 500px;
+  height: 400px;
+}
+.welcomeContent .image1 {
+  height: 400px;
+}
+
+.welcomePara {
+  height: 400px;
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 56px;
+  color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.welcomePara .viewButton {
+  background-color: #1774A8;
+  height: 40px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.headerClass {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 85px;
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #116099;
+}
+
+.dada {
+  width: 50%;
+  height: 500px;
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #fefefe;
+}
+
+.imageMobile {
+  width: 50%;
+  height: 500px;
+  background: #000E1B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageMobile .frame2 {
+  height: 400px;
+  transform: rotate(12.68deg);
+}
+
+.aboutFlex {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutFlex .myPic {
+  background: #000000;
+  height: 400px;
+}
+
+.aboutMeContent {
+  width: 50%;
+  height: 500px;
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  letter-spacing: -0.02em;
   color: #fefefe;
 }
 
-body {
-  width: 1250px;
-  background-color: black;
+.experienceContent {
+  width: 40%;
+  height: 400px;
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #fefefe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.main {
-  width: 1250px;
-  height: 4096px;
+.skills {
+  height: 400px;
+  width: 50%;
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+  color: #fefefe;
+}
+.skills #skillHeader {
+  margin-left: 20%;
+  margin-top: 5%;
+}
+.skills .skillList {
+  margin: 5% 20%;
+}
+
+.contactContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fefefe;
+  font-size: 30px;
+}
+.contactContent .gmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.contactContent #gmailIcon {
+  height: 35px;
+}
+.contactContent #linkedInIcon {
+  height: 35px;
+}
+
+body {
   background-color: black;
 }
 
 .navigation {
   display: flex;
   justify-content: space-around;
-  position: absolute;
-  width: 1200px;
   height: 91px;
-  left: 0px;
-  top: 0px;
+  margin: 0 auto;
 }
 
 .welcomePageContent {
-  width: 1250px;
+  height: 400px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects {
   height: 500px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutMeSection {
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.IndustryExperience {
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.CotactSection {
+  height: 200px;
+}
+
+@media (max-width: 500px) {
+  .navLinks {
+    flex-direction: column;
+  }
+
+  .welcomePageContent {
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 500px) {
+  .navigation {
+    height: 50px;
+  }
+  .navigation .navLinks {
+    flex-direction: row;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .welcomePageContent {
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .welcomePageContent .welcomeContent {
+    margin-top: 50px;
+    height: 200px;
+    width: 50%;
+  }
+  .welcomePageContent .welcomeContent .image1 {
+    height: 200px;
+    width: 100%;
+  }
+  .welcomePageContent .welcomePara {
+    margin-top: 50px;
+    height: 200px;
+    font-weight: 150;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .welcomePageContent .welcomePara h2 {
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+  }
+  .welcomePageContent .welcomePara .viewButton {
+    height: 20px;
+    font-weight: 300;
+    font-size: 10px;
+  }
+
+  .headerClass {
+    height: 40px;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .projects {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .projects .dada {
+    width: 100%;
+    height: 200px;
+    font-family: "Work Sans";
+    font-weight: 150;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .projects .imageMobile {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects .imageMobile .frame2 {
+    height: 200px;
+    transform: rotate(12.68deg);
+  }
+
+  .aboutMeSection {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .aboutMeSection .aboutFlex {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutMeSection .aboutFlex .myPic {
+    height: 200px;
+  }
+  .aboutMeSection .aboutMeContent {
+    width: 100%;
+    height: 450px;
+    font-weight: 150;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .IndustryExperience {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 0;
+  }
+  .IndustryExperience .experienceContent {
+    width: 100%;
+    height: 200px;
+    font-weight: 150;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .IndustryExperience .skills {
+    height: 200px;
+    width: 100%;
+    font-weight: 150;
+    font-size: 20px;
+    text-align: center;
+  }
+  .IndustryExperience .skillList {
+    text-align: center;
+  }
+  .IndustryExperience #skillHeader {
+    margin-left: 0;
+    margin-top: 0;
+  }
 }
