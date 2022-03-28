@@ -84,3 +84,20 @@ const compValues=companies.map(comp=>{
     return Object.values(comp)
 })
 console.log(compValues);
+
+// const payer=(bill_total,number_bill,tip)=>{
+//     bill_total=number_bill+tip;
+
+// }
+// function totalbill(total){
+//     let tax=
+// }
+
+const calcualteBillTotal = (totalBill, tipPercentage, billPayers) => {
+    let tip = (tipPercentage/100) * totalBill;
+    let total = (totalBill + tip)/billPayers;
+    total = Math.round(total);
+    console.log(total)
+    return total;
+}
+calcualteBillTotal(15,20,6)
