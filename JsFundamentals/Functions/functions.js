@@ -65,5 +65,44 @@ const scoreArr =[1,2,3];
   }
   console.log(newArr);
 //   return ingredientsArr;
-  
-  
+const celsiusToFahrenheit = (tempInCelsius) => {
+let temperature="";
+  temperature=(tempInCelsius*1.8)+32;
+  // console.log(tempInCelsius+ " degrees celsius is "+temperature+" degrees fahrenheit");
+  // return temperature=((tempInCelsius*1.8)+32).toString();
+  return console.log(tempInCelsius+ " degrees celsius is "+temperature+" degrees fahrenheit");
+}
+celsiusToFahrenheit(15)
+
+
+const getGrade = (score) => {  
+let grade="";
+let message="Score unavailable";
+if(score>=80 && score<=100){
+  grade="A";
+}
+else if(score>=70 && score<=79){
+  grade="B";
+}
+else if(score>=60 && score<=69){
+  grade="C";
+}
+else if(score>=50 && score<=59){
+  grade="D";
+}
+else if(score>=40 && score<=49){
+  grade="E";
+}
+else if(score>=0 && score<=39){
+  grade="F";
+}
+else{
+  console.log(message);
+  return message;
+  // message="Score unavailable";
+}
+console.log(grade)
+return grade;
+}
+
+getGrade(t)
