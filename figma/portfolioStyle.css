@@ -1,0 +1,238 @@
+main{
+    position: relative;
+    width: 1440px;
+    height: 4096px;
+    background-color: black;
+}
+.navigation{
+    /* display: flex;
+    justify-content: center; */
+    position: absolute;
+    width: 1440px;
+    height: 91px;
+    left: 0px;
+    top: 0px;
+}
+li{
+    list-style: none;
+}
+.navLinks{    
+    top: 0px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+  .aboutMe{
+       position: absolute;
+width: 187px;
+height: 57px;
+left: 383px;
+}
+.experience{
+    position: absolute;
+width: 199px;
+height: 57px;
+left: 593px;
+}
+.contact{
+    position: absolute;
+width: 174px;
+height: 57px;
+left: 824px;
+}
+.welcomePageContent{
+    position: absolute;
+width: 434px;
+height: 224px;
+left: 739px;
+top: 283px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+.image1{
+    position: absolute;
+width: 600px;
+height: 817px;
+left: 0px;
+top: 106px;
+}
+.viewButton{
+    position: absolute;
+width: 252px;
+height: 54px;
+left: 802px;
+top: 594px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+
+color: white;
+
+position: absolute;
+width: 297px;
+height: 100px;
+/* edited from left: 779px; */
+left: 200px;
+top: 571px;
+
+background: #1774A8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#myProject{
+    position: absolute;
+width: 657px;
+height: 89px;
+left: 417px;
+top: 991px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #116099;
+}
+.frame1{
+    position: absolute;
+width: 726px;
+height: 727px;
+left: 20px;
+top: 1122px;
+
+}
+.frame2{
+    position: absolute;
+width: 694px;
+height: 729px;
+left: 746px;
+top: 1120px;
+}
+#aboutMe{
+    position: absolute;
+width: 446px;
+height: 113px;
+left: 523px;
+top: 1964px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #116099;
+
+}
+.myPic{
+    position: absolute;
+width: 471px;
+height: 554px;
+left: 197px;
+top: 2077px;
+
+background: #000000;
+}
+.meContent{
+    position: absolute;
+width: 570px;
+height: 429px;
+left: 720px;
+top: 2140px;
+}
+.experienceContent{
+    position: absolute;
+width: 1107px;
+height: 654px;
+left: 192px;
+top: 2965px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+}
+.experienceImage{
+    position: absolute;
+width: 211px;
+height: 544px;
+left: 1200px;
+top: 3049px;
+
+}
+.contact{
+    position: absolute;
+width: 296px;
+height: 105px;
+left: 555px;
+top: 3802px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #1774A8;
+}
+.contactDetail{
+    position: absolute;
+width: 1316px;
+height: 227px;
+left: 24px;
+top: 3871px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+}

@@ -1,0 +1,69 @@
+
+body{
+    background-color: black;
+}
+// .main{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-around;
+// }
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    // max-width: 1200px;
+    height: 91px;
+    margin: 0 auto;
+}
+.welcomePageContent{
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    // max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+.projects{
+    height: 500px;
+    // max-width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.aboutMeSection{
+    height: 500px;
+    // max-width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.IndustryExperience{
+    height: 400px;
+    // max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.CotactSection{
+    height: 200px;
+    // max-width: 1200px;
+}
+
+// Mobile
+
+// @media (max-width:500px){
+//     .navLinks{
+//         flex-direction: column;
+//     }
+//     .welcomePageContent{
+//         height: 200px;
+//     margin-top: 10px;
+//     margin-bottom: 5px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-around;
+//     }
+// }
