@@ -1,0 +1,43 @@
+$color-white: rgba(245, 245, 245, 0.493);
+$colour-orange:  rgb(240, 145, 57);
+$color-yellow:  rgb(250, 222, 61);
+$border-radius: 1rem;
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, $colour-orange , $color-yellow);
+}
+
+button{
+    width: 10rem; 
+    padding: 1rem;
+    background-color: $color-white;
+    border: none;
+    border-radius: $border-radius;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color:  $color-white;
+    padding: 1rem;
+    border-radius: $border-radius;
+    margin: 1rem 0;
+    * {
+        background-color:$colour-orange;
+        width: 10%;
+        padding: 1rem;
+        border-radius: $border-radius;
+        object-fit: contain;
+    }
+}
+input{
+    background-color: $color-white;
+    border: none;
+    padding: 1rem;
+    border-radius: $border-radius;
+
+}

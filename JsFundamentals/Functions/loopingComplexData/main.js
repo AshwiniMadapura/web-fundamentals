@@ -101,3 +101,18 @@ const calcualteBillTotal = (totalBill, tipPercentage, billPayers) => {
     return total;
 }
 calcualteBillTotal(15,20,6)
+
+
+// let a=[];
+// a=a+"1"+"2";
+// console.log(a)
+
+// let numArr=[1]
+// numArr=[numArr+Number(2)];
+// console.log(numArr);
+// numArr.push(3);
+// console.log(numArr);
+
+
+let a=12.
+console.log(Number( a))

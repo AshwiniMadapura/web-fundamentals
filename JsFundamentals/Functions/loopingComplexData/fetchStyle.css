@@ -1,0 +1,39 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to right, #f09139, #fade3d);
+}
+
+button {
+  width: 10rem;
+  padding: 1rem;
+  background-color: rgba(245, 245, 245, 0.493);
+  border: none;
+  border-radius: 1rem;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background-color: rgba(245, 245, 245, 0.493);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem 0;
+}
+section * {
+  background-color: #f09139;
+  width: 10%;
+  padding: 1rem;
+  border-radius: 1rem;
+  object-fit: contain;
+}
+
+input {
+  background-color: rgba(245, 245, 245, 0.493);
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+}
